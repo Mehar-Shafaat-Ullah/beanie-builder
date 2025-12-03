@@ -31,6 +31,9 @@ fi
 # Create the blueprint directory
 mkdir -p "blueprints"
 
+# Create the blueprint config directory
+mkdir -p "blueprint-config"
+
 # Create the blueprint toml file
 touch "blueprints/$BLUEPRINT_NAME.toml"
 
